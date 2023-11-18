@@ -1,0 +1,72 @@
+/* General styles */
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body {
+    background-color: var(--white);
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Header Styles */
+header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: var(--text-input-field);
+    border-bottom: var(--very-light-pink) 1px solid;
+}
+.left-menu{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    align-items: center;
+}
+.menu-hamburguesa{
+    height: 30%;
+    margin: 0 20px;
+    
+}
+.logo{
+    height: 100%;
+    margin: 0 20px;
+}
+input{
+    height: 50%;
+    width: 60%;
+    border: 0;
+    margin: 0 20px;
+    border-radius: 20px;
+    padding-left: 15px;
+    border: var(--black) 1px solid;
+}
+.rigth-menu{
+    height: 100%;
+    width: 30%;
+}
+.rigth-menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+    
+}
+.rigth-menu ul li{
+    margin: 0 10px;
+}
+/* Main Styles */
+
+main{
+    width: 100%;
+    height: 400px;
+    background-color: var(--hospital-green);
+}
